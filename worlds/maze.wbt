@@ -1,0 +1,436 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.9999863646150372 -0.0051692432050152014 0.0007412885329930144 1.6056279122870583
+  position -1.0656865602109855 28.95598223820814 -0.5532697950341537
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 10 10
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+  wallHeight 0.3
+}
+WoodenBox {
+  translation -3.49 0.3 4.88
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(44)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation -4.94 0.3 3.35
+  rotation 0 1 0 3.14159
+  name "wooden box(43)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation 4.76 0.3 3.42
+  rotation 0 1 0 3.14159
+  name "wooden box(18)"
+  size 0.1 2.5 3
+}
+TiagoSteel {
+  translation 3.0204 0.0624325 -3.45803
+  rotation 0.5727749017032436 0.579522900545186 0.579725900510348 -2.0812953071795866
+  controller "final_proj"
+  cameraSlot [
+    Display {
+      width 360
+      height 360
+    }
+    GPS {
+    }
+    Compass {
+    }
+  ]
+}
+Solid {
+  translation -2.44 0.2 -0.04
+  rotation 0 1 0 -1.5707953071795862
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0.2
+      }
+      geometry Box {
+        size 0.5 0.5 0.01
+      }
+    }
+  ]
+  name "solid(7)"
+}
+Solid {
+  translation -2.69 0.17 1.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0.2
+      }
+      geometry Box {
+        size 0.5 0.5 0.01
+      }
+    }
+  ]
+  name "solid(6)"
+}
+Solid {
+  translation 0.15 0.17 3.49
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0.2
+      }
+      geometry Box {
+        size 0.5 0.5 0.01
+      }
+    }
+  ]
+  name "solid(5)"
+}
+Solid {
+  translation -3.37 0.17 1.84
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0.2
+      }
+      geometry Box {
+        size 0.5 0.5 0.01
+      }
+    }
+  ]
+  name "solid(4)"
+}
+Solid {
+  translation 1.5 0.17 -1.47
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0.2
+      }
+      geometry Box {
+        size 0.5 0.5 0.01
+      }
+    }
+  ]
+  name "solid(3)"
+}
+E-puck {
+  translation -3.52 -6.85345e-05 3.79
+  rotation 2.976736797242393e-06 0.9999999999955697 -1.088796994040612e-09 3.141589999999977
+  controller ""
+  groundSensorsSlot [
+    GPS {
+    }
+    Compass {
+    }
+  ]
+}
+WoodenBox {
+  translation 4.03 0.3 -1.65
+  rotation 0 1 0 -1.5707953071795862
+  name "wooden box(42)"
+  size 0.1 2.5 1.5
+}
+WoodenBox {
+  translation -2.07 0.3 2.5
+  rotation 0 1 0 3.14159
+  name "wooden box(41)"
+  size 0.1 2.5 1.7
+}
+WoodenBox {
+  translation 0.17 0.3 3.44
+  rotation 0 1 0 -1.5707953071795862
+  name "wooden box(39)"
+  size 0.1 2.5 1.2
+}
+WoodenBox {
+  translation -0.46 0.3 4.16
+  rotation 0 1 0 3.14159
+  name "wooden box(38)"
+  size 0.1 2.5 1.4
+}
+WoodenBox {
+  translation 2.19 0.3 2.19
+  rotation 0 1 0 3.14159
+  name "wooden box(37)"
+  size 0.1 2.5 1.2
+}
+WoodenBox {
+  translation 3.3 0.3 4.28
+  rotation 0 1 0 3.14159
+  name "wooden box(36)"
+  size 0.1 2.5 1.2
+}
+WoodenBox {
+  translation -3.32 0.3 1.99
+  rotation 0 1 0 3.14159
+  name "wooden box(35)"
+  size 0.1 2.5 0.7
+}
+WoodenBox {
+  translation -4.11 0.3 2.31
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(34)"
+  size 0.1 2.5 1.7
+}
+WoodenBox {
+  translation 1.93 0.3 1.66
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(33)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation 0.2 0.3 1.65
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(32)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation -1.85 0.3 1.64
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(31)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation -0.69 0.3 0.29
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(30)"
+  size 0.1 2.5 1
+}
+WoodenBox {
+  translation -2.09 0.3 0.3
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(29)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation -4.26 0.3 0.289999
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(28)"
+  size 0.1 2.5 1.4
+}
+WoodenBox {
+  translation -2.49 0.3 -0.0499975
+  rotation 0 1 0 3.14159
+  name "wooden box(27)"
+  size 0.1 2.5 0.8
+}
+WoodenBox {
+  translation -2.32 0.3 -0.43
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(26)"
+  size 0.1 2.5 0.3
+}
+WoodenBox {
+  translation -2.15 0.3 -1.07
+  rotation 0 1 0 3.14159
+  name "wooden box(25)"
+  size 0.1 2.5 1.2
+}
+WoodenBox {
+  translation -1.19 0.3 -1.68
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(24)"
+  size 0.1 2.5 2
+}
+WoodenBox {
+  translation -4.22 0.3 -1.67
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(23)"
+  size 0.1 2.5 1.5
+}
+WoodenBox {
+  translation -2.07 0.3 -3.16
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(22)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation -3.52 0.3 -2.41
+  rotation 0 1 0 3.14159
+  name "wooden box(21)"
+  size 0.1 2.5 1.5
+}
+WoodenBox {
+  translation -1.67 0.3 -3.15
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(20)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation 0.83 0.3 -0.01
+  rotation 0 1 0 3.14159
+  name "wooden box(19)"
+  size 0.1 2.5 0.7
+}
+WoodenBox {
+  translation 1.51 0.3 0.380002
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(17)"
+  size 0.1 2.5 1.5
+}
+WoodenBox {
+  translation 3.26 0.3 0.37
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(16)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation 1.51 0.3 -1.42
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(15)"
+  size 0.1 2.5 1.3
+}
+WoodenBox {
+  translation 2.12 0.3 -2.06
+  rotation 0 1 0 3.14159
+  name "wooden box(14)"
+  size 0.1 2.5 1.3
+}
+WoodenBox {
+  translation 0.9 0.3 -2.85
+  rotation 0 1 0 3.14159
+  name "wooden box(13)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation -4.94 0.3 -2.84
+  rotation 0 1 0 3.14159
+  name "wooden box(11)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation -4.94 0.3 -1.59216e-07
+  rotation 0 1 0 3.14159
+  name "wooden box(10)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation -4.94 0.3 2.96
+  rotation 0 1 0 3.14159
+  name "wooden box(9)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation -2.72 0.3 4.88
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(8)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation 0.25 0.3 4.89
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(7)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation 3.23 0.3 4.88
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(6)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation 4.76 0.3 3.08
+  rotation 0 1 0 3.14159
+  name "wooden box(5)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation -3.5 0.3 -4.39
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(4)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation 4.76 0.3 0.12
+  rotation 0 1 0 3.14159
+  name "wooden box(3)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation 4.76 0.3 -2.89
+  rotation 0 1 0 -5.307179586466759e-06
+  name "wooden box(2)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation -0.5 0.3 -4.39
+  rotation 0 -1 0 -1.5707953071795862
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation 0.76 0.3 -4.4
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(12)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation 2.45 0.3 -4.4
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(40)"
+  size 0.1 2.5 3
+}
+WoodenBox {
+  translation 3.89 0.3 -4.4
+  rotation 0 -1 0 -1.5707953071795862
+  name "wooden box(1)"
+  size 0.1 2.5 1.8
+}
+Solid {
+  translation -4.3 0.22 -1.72
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0.2
+      }
+      geometry Box {
+        size 0.5 0.5 0.01
+      }
+    }
+  ]
+}
+Solid {
+  translation 0.88 0.24 -0.02
+  rotation 0 1 0 -1.5707953071795862
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0.2
+      }
+      geometry Box {
+        size 0.5 0.5 0.01
+      }
+    }
+  ]
+  name "solid(2)"
+}
+Solid {
+  translation -4.3 0.17 0.24
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 0
+        metalness 0.2
+      }
+      geometry Box {
+        size 0.5 0.5 0.01
+      }
+    }
+  ]
+  name "solid(1)"
+}
